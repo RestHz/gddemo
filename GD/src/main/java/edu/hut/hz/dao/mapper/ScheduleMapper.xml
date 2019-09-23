@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.ScheduleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.Schedule">
+        <id column="schedule_id" property="scheduleId" />
+        <result column="week" property="week" />
+        <result column="first_lesson" property="firstLesson" />
+        <result column="second_lesson" property="secondLesson" />
+        <result column="third_lesson" property="thirdLesson" />
+        <result column="fourth_lesson" property="fourthLesson" />
+        <result column="fifth_lesson" property="fifthLesson" />
+        <result column="sixth_lesson" property="sixthLesson" />
+        <result column="seventh_lesson" property="seventhLesson" />
+        <result column="eighth_lesson" property="eighthLesson" />
+        <result column="exam_year" property="examYear" />
+        <result column="exam_term" property="examTerm" />
+        <result column="cla_id" property="claId" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        schedule_id, week, first_lesson, second_lesson, third_lesson, fourth_lesson, fifth_lesson, sixth_lesson, seventh_lesson, eighth_lesson, exam_year, exam_term, cla_id, status
+    </sql>
+
+</mapper>

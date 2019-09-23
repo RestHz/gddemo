@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--获取数据源配置信息-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--Spring注解驱动,加载注解类到Ioc容器,多包逗号隔开,父容器不能调用子容器Controller-->
+    <context:component-scan base-package="edu.hut.hz"/>
+
+    <!--数据源设置-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="username" value="${jdbc.user}"></property>
+        <property name="driverClassName" value="${jdbc.driverClass}"></property>
+        <property name="url" value="${jdbc.jdbcUrl}"></property>
+
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="${jdbc.initPoolSize}"></property>
+        <!-- 连接池最大使用连接数量 -->
+        <property name="maxActive" value="${jdbc.maxPoolSize}"></property>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="${jdbc.minIdle}" />
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="${jdbc.maxWait}" />
+    </bean>
+
+    <!--整合Mybatis-->
+    <bean id="mybatisSqlSessionFactoryBean" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <!--加载数据库连接-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--指定mapper文件-->
+        <property name="mapperLocations" value="classpath*:edu/hut/hz/dao/mapper/*.xml" />
+        <!--加载Mybatis配置文件-->
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+        <!--加载MybatisPlus全局策略配置-->
+        <property name="globalConfig" ref="globalConfiguration"/>
+    </bean>
+
+    <!-- 定义MybatisPlus的全局策略配置 -->
+    <bean id="globalConfiguration" class="com.baomidou.mybatisplus.core.config.GlobalConfig">
+        <property name="dbConfig">
+            <bean class="com.baomidou.mybatisplus.core.config.GlobalConfig.DbConfig">
+                <!--主键规则-->
+                <property name="idType" value="AUTO"/>
+                <!--表前缀-->
+                <!--<property name="tablePrefix" value="tbl_"/>-->
+            </bean>
+        </property>
+        <property name="sqlInjector" ref="logicalDelInjector"/>
+    </bean>
+    <!--逻辑删除-->
+    <bean id="logicalDelInjector" class="com.baomidou.mybatisplus.extension.injector.LogicSqlInjector"/>
+
+    <!--整合Mybatis,加载dao的接口-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--指定dao的所有接口,加入到Ioc容器-->
+        <property name="basePackage" value="edu.hut.hz.dao"/>
+        <!--配置sqlSession生产工厂-->
+        <property name="sqlSessionFactoryBeanName" value="mybatisSqlSessionFactoryBean"/>
+    </bean>
+
+    <!--开启Spring管理数据库的事务-->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+</beans>

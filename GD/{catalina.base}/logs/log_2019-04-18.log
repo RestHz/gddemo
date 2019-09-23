@@ -1,0 +1,316 @@
+==========================准备生成文件...==========================
+Initializing Velocity, Calling init()...
+Starting Apache Velocity v2.0
+Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Created '20' parsers.
+"velocimacro.library" is not set. Trying default library: VM_global_library.vm
+Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Default library not found.
+allowInline = true: VMs can be defined inline in templates
+allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+autoload off: VM system will not automatically reload global library macros
+ResourceManager: found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+=================================================================
+== Class: class java.util.HashMap
+Reflecting class java.util.HashMap
+Adding public java.lang.Object java.util.HashMap.remove(java.lang.Object)
+Adding public boolean java.util.HashMap.remove(java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.get(java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.put(java.lang.Object,java.lang.Object)
+Adding public java.util.Collection java.util.HashMap.values()
+Adding public java.lang.Object java.util.HashMap.clone()
+Adding public void java.util.HashMap.clear()
+Adding public boolean java.util.HashMap.isEmpty()
+Adding public boolean java.util.HashMap.replace(java.lang.Object,java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.replace(java.lang.Object,java.lang.Object)
+Adding public void java.util.HashMap.replaceAll(java.util.function.BiFunction)
+Adding public int java.util.HashMap.size()
+Adding public java.util.Set java.util.HashMap.entrySet()
+Adding public void java.util.HashMap.putAll(java.util.Map)
+Adding public java.lang.Object java.util.HashMap.putIfAbsent(java.lang.Object,java.lang.Object)
+Adding public java.util.Set java.util.HashMap.keySet()
+Adding public java.lang.Object java.util.HashMap.compute(java.lang.Object,java.util.function.BiFunction)
+Adding public java.lang.Object java.util.HashMap.computeIfAbsent(java.lang.Object,java.util.function.Function)
+Adding public java.lang.Object java.util.HashMap.computeIfPresent(java.lang.Object,java.util.function.BiFunction)
+Adding public boolean java.util.HashMap.containsKey(java.lang.Object)
+Adding public boolean java.util.HashMap.containsValue(java.lang.Object)
+Adding public void java.util.HashMap.forEach(java.util.function.BiConsumer)
+Adding public java.lang.Object java.util.HashMap.getOrDefault(java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)
+Reflecting interface java.util.Map
+Adding public abstract boolean java.util.Map.equals(java.lang.Object)
+Adding public abstract int java.util.Map.hashCode()
+Reflecting interface java.lang.Cloneable
+Reflecting interface java.io.Serializable
+Reflecting class java.util.AbstractMap
+Adding public java.lang.String java.util.AbstractMap.toString()
+Reflecting interface java.util.Map
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+=================================================================
+== Class: class com.baomidou.mybatisplus.generator.config.po.TableInfo
+Reflecting class com.baomidou.mybatisplus.generator.config.po.TableInfo
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.equals(java.lang.Object)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.toString()
+Adding public int com.baomidou.mybatisplus.generator.config.po.TableInfo.hashCode()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getName()
+Adding public java.util.List com.baomidou.mybatisplus.generator.config.po.TableInfo.getFields()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setName(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getComment()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setComment(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setServiceImplName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setControllerName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setServiceName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setMapperName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setXmlName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setCommonFields(java.util.List)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getFieldNames()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getServiceImplName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getControllerName()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.isConvert()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.isLogicDelete(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setConvert(boolean)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getEntityName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getXmlName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setEntityName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setEntityName(com.baomidou.mybatisplus.generator.config.StrategyConfig,java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getServiceName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getMapperName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setFields(java.util.List)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setImportPackages(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getEntityPath()
+Adding public java.util.Set com.baomidou.mybatisplus.generator.config.po.TableInfo.getImportPackages()
+Adding public java.util.List com.baomidou.mybatisplus.generator.config.po.TableInfo.getCommonFields()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setFieldNames(java.lang.String)
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+=================================================================
+== Class: class com.baomidou.mybatisplus.generator.config.po.TableField
+Reflecting class com.baomidou.mybatisplus.generator.config.po.TableField
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.equals(java.lang.Object)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.toString()
+Adding public int com.baomidou.mybatisplus.generator.config.po.TableField.hashCode()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setName(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getType()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getComment()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setComment(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setType(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setCustomMap(java.util.Map)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setColumnType(com.baomidou.mybatisplus.generator.config.rules.IColumnType)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setFill(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setKeyFlag(boolean)
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isConvert()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setConvert(boolean)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getPropertyName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setPropertyName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setPropertyName(com.baomidou.mybatisplus.generator.config.StrategyConfig,java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getPropertyType()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setKeyIdentityFlag(boolean)
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isKeyIdentityFlag()
+Adding public com.baomidou.mybatisplus.generator.config.rules.IColumnType com.baomidou.mybatisplus.generator.config.po.TableField.getColumnType()
+Adding public java.util.Map com.baomidou.mybatisplus.generator.config.po.TableField.getCustomMap()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getCapitalName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getFill()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isKeyFlag()
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+模板:/templates/entity.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\pojo\Schedule.java
+ResourceManager: found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/mapper.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\dao\ScheduleMapper.java
+ResourceManager: found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/mapper.xml.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\dao\mapper\ScheduleMapper.xml
+ResourceManager: found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/service.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\service\ScheduleService.java
+ResourceManager: found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/serviceImpl.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\serviceimpl\ScheduleServiceImpl.java
+ResourceManager: found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/controller.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\controller\ScheduleController.java
+==========================文件生成完成！！！==========================
+==========================准备生成文件...==========================
+Initializing Velocity, Calling init()...
+Starting Apache Velocity v2.0
+Default Properties resource: org/apache/velocity/runtime/defaults/velocity.properties
+ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+Loaded System Directive: org.apache.velocity.runtime.directive.Define
+Loaded System Directive: org.apache.velocity.runtime.directive.Break
+Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Created '20' parsers.
+"velocimacro.library" is not set. Trying default library: VM_global_library.vm
+Could not load resource 'VM_global_library.vm' from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Default library not found.
+allowInline = true: VMs can be defined inline in templates
+allowInlineToOverride = false: VMs defined inline may NOT replace previous VM definitions
+allowInlineLocal = false: VMs defined inline will be global in scope if allowed.
+autoload off: VM system will not automatically reload global library macros
+ResourceManager: found /templates/entity.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+=================================================================
+== Class: class java.util.HashMap
+Reflecting class java.util.HashMap
+Adding public java.lang.Object java.util.HashMap.remove(java.lang.Object)
+Adding public boolean java.util.HashMap.remove(java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.get(java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.put(java.lang.Object,java.lang.Object)
+Adding public java.util.Collection java.util.HashMap.values()
+Adding public java.lang.Object java.util.HashMap.clone()
+Adding public void java.util.HashMap.clear()
+Adding public boolean java.util.HashMap.isEmpty()
+Adding public boolean java.util.HashMap.replace(java.lang.Object,java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.replace(java.lang.Object,java.lang.Object)
+Adding public void java.util.HashMap.replaceAll(java.util.function.BiFunction)
+Adding public int java.util.HashMap.size()
+Adding public java.util.Set java.util.HashMap.entrySet()
+Adding public void java.util.HashMap.putAll(java.util.Map)
+Adding public java.lang.Object java.util.HashMap.putIfAbsent(java.lang.Object,java.lang.Object)
+Adding public java.util.Set java.util.HashMap.keySet()
+Adding public java.lang.Object java.util.HashMap.compute(java.lang.Object,java.util.function.BiFunction)
+Adding public java.lang.Object java.util.HashMap.computeIfAbsent(java.lang.Object,java.util.function.Function)
+Adding public java.lang.Object java.util.HashMap.computeIfPresent(java.lang.Object,java.util.function.BiFunction)
+Adding public boolean java.util.HashMap.containsKey(java.lang.Object)
+Adding public boolean java.util.HashMap.containsValue(java.lang.Object)
+Adding public void java.util.HashMap.forEach(java.util.function.BiConsumer)
+Adding public java.lang.Object java.util.HashMap.getOrDefault(java.lang.Object,java.lang.Object)
+Adding public java.lang.Object java.util.HashMap.merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)
+Reflecting interface java.util.Map
+Adding public abstract boolean java.util.Map.equals(java.lang.Object)
+Adding public abstract int java.util.Map.hashCode()
+Reflecting interface java.lang.Cloneable
+Reflecting interface java.io.Serializable
+Reflecting class java.util.AbstractMap
+Adding public java.lang.String java.util.AbstractMap.toString()
+Reflecting interface java.util.Map
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+=================================================================
+== Class: class com.baomidou.mybatisplus.generator.config.po.TableInfo
+Reflecting class com.baomidou.mybatisplus.generator.config.po.TableInfo
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.equals(java.lang.Object)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.toString()
+Adding public int com.baomidou.mybatisplus.generator.config.po.TableInfo.hashCode()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getName()
+Adding public java.util.List com.baomidou.mybatisplus.generator.config.po.TableInfo.getFields()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setName(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getComment()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setComment(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setServiceImplName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setControllerName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setMapperName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setServiceName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setXmlName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setFields(java.util.List)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getFieldNames()
+Adding public java.util.Set com.baomidou.mybatisplus.generator.config.po.TableInfo.getImportPackages()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setImportPackages(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setConvert(boolean)
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.isConvert()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getEntityPath()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableInfo.isLogicDelete(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getControllerName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getServiceImplName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setCommonFields(java.util.List)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setFieldNames(java.lang.String)
+Adding public java.util.List com.baomidou.mybatisplus.generator.config.po.TableInfo.getCommonFields()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getEntityName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getServiceName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setEntityName(com.baomidou.mybatisplus.generator.config.StrategyConfig,java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableInfo com.baomidou.mybatisplus.generator.config.po.TableInfo.setEntityName(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getMapperName()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableInfo.getXmlName()
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+=================================================================
+== Class: class com.baomidou.mybatisplus.generator.config.po.TableField
+Reflecting class com.baomidou.mybatisplus.generator.config.po.TableField
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.equals(java.lang.Object)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.toString()
+Adding public int com.baomidou.mybatisplus.generator.config.po.TableField.hashCode()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setName(java.lang.String)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getType()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getComment()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setComment(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setType(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setKeyIdentityFlag(boolean)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getPropertyName()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setConvert(boolean)
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getPropertyType()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isConvert()
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setPropertyName(com.baomidou.mybatisplus.generator.config.StrategyConfig,java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setPropertyName(java.lang.String)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setCustomMap(java.util.Map)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setKeyFlag(boolean)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setColumnType(com.baomidou.mybatisplus.generator.config.rules.IColumnType)
+Adding public com.baomidou.mybatisplus.generator.config.po.TableField com.baomidou.mybatisplus.generator.config.po.TableField.setFill(java.lang.String)
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isKeyFlag()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getFill()
+Adding public java.lang.String com.baomidou.mybatisplus.generator.config.po.TableField.getCapitalName()
+Adding public java.util.Map com.baomidou.mybatisplus.generator.config.po.TableField.getCustomMap()
+Adding public com.baomidou.mybatisplus.generator.config.rules.IColumnType com.baomidou.mybatisplus.generator.config.po.TableField.getColumnType()
+Adding public boolean com.baomidou.mybatisplus.generator.config.po.TableField.isKeyIdentityFlag()
+Reflecting class java.lang.Object
+Adding public final void java.lang.Object.wait() throws java.lang.InterruptedException
+Adding public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+Adding public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+Adding public final native java.lang.Class java.lang.Object.getClass()
+Adding public final native void java.lang.Object.notify()
+Adding public final native void java.lang.Object.notifyAll()
+=================================================================
+模板:/templates/entity.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\pojo\Schedule.java
+ResourceManager: found /templates/mapper.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/mapper.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\dao\ScheduleMapper.java
+ResourceManager: found /templates/mapper.xml.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/mapper.xml.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\dao\mapper\ScheduleMapper.xml
+ResourceManager: found /templates/service.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/service.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\service\ScheduleService.java
+ResourceManager: found /templates/serviceImpl.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/serviceImpl.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\serviceimpl\ScheduleServiceImpl.java
+ResourceManager: found /templates/controller.java.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+模板:/templates/controller.java.vm;  文件:D:\Java\IHzProjects\GDDome02\src\main\java\edu\hut\hz\controller\ScheduleController.java
+==========================文件生成完成！！！==========================

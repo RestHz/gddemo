@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.CommunicationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.Communication">
+        <id column="cm_id" property="cmId" />
+        <result column="cm_title" property="cmTitle" />
+        <result column="content" property="content" />
+        <result column="reply_content" property="replyContent" />
+        <result column="sender" property="sender" />
+        <result column="recipient" property="recipient" />
+        <result column="role" property="role" />
+        <result column="add_time" property="addTime" />
+        <result column="cw_status" property="cwStatus" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        cm_id, cm_title, content, reply_content, sender, recipient, role, add_time, cw_status
+    </sql>
+
+</mapper>

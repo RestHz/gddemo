@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.User">
+        <id column="account" property="account" />
+        <result column="user_name" property="userName" />
+        <result column="user_pwd" property="userPwd" />
+        <result column="user_sex" property="userSex" />
+        <result column="user_age" property="userAge" />
+        <result column="user_email" property="userEmail" />
+        <result column="user_phone" property="userPhone" />
+        <result column="address" property="address" />
+        <result column="sno" property="sno" />
+        <result column="cla_name" property="claName" />
+        <result column="stu_name" property="stuName" />
+        <result column="relation" property="relation" />
+        <result column="role" property="role" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        account, user_name, user_pwd, user_sex, user_age, user_email, user_phone, address, sno, cla_name, stu_name, relation, role
+    </sql>
+
+    <!--用户信息模糊查询-->
+    <select id="userNeedMsg" resultMap="BaseResultMap">
+        select * from user
+        where
+              account like CONCAT('%',#{0},'%')
+              or user_name like CONCAT('%',#{0},'%')
+              or user_sex like CONCAT('%',#{0},'%')
+              or user_age like CONCAT('%',#{0},'%')
+              or user_email like CONCAT('%',#{0},'%')
+              or user_phone like CONCAT('%',#{0},'%')
+              or cla_name like CONCAT('%',#{0},'%')
+              or stu_name like CONCAT('%',#{0},'%')
+              or address like CONCAT('%',#{0},'%')
+              or sno like CONCAT('%',#{0},'%')
+              or relation like CONCAT('%',#{0},'%')
+
+    </select>
+</mapper>

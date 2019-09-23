@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.ClasMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.Clas">
+        <id column="cla_id" property="claId" />
+        <result column="cla_name" property="claName" />
+        <result column="cla_tno" property="claTno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        cla_id, cla_name, cla_tno
+    </sql>
+
+</mapper>

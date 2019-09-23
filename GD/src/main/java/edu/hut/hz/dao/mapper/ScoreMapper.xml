@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.ScoreMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.Score">
+        <id column="score_id" property="scoreId" />
+        <result column="exam_year" property="examYear" />
+        <result column="exam_term" property="examTerm" />
+        <result column="course_name" property="courseName" />
+        <result column="cla_name" property="claName" />
+        <result column="stu_name" property="stuName" />
+        <result column="exam_score" property="examScore" />
+        <result column="exam_time" property="examTime" />
+        <result column="tno" property="tno" />
+        <result column="sno" property="sno" />
+        <result column="cno" property="cno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        score_id, exam_year, exam_term, course_name, cla_name, stu_name, exam_score, exam_time, tno, sno, cno
+    </sql>
+
+
+    <!--成绩信息模糊查询-->
+    <select id="scoreNeedSelect" resultMap="BaseResultMap">
+        select * from score
+        where
+              course_name like CONCAT('%',#{0},'%')
+              or cla_name like CONCAT('%',#{0},'%')
+              or stu_name like CONCAT('%',#{0},'%')
+              or exam_score like CONCAT('%',#{0},'%')
+              or tno like CONCAT('%',#{0},'%')
+              or sno like CONCAT('%',#{0},'%')
+              or cno like CONCAT('%',#{0},'%')
+
+    </select>
+
+    <!--学期成绩最高分-->
+    <select id="scoreMax" resultType="Double">
+        select max(exam_score) from score
+        where
+        course_name = #{courseName}
+        and exam_year = #{examYear}
+        and exam_term = #{examTerm}
+    </select>
+
+    <!--学期成绩平均分-->
+    <select id="scoreAvg" resultType="Double">
+        select convert(AVG(exam_score),DECIMAL(12,1)) from score
+        where
+        course_name = #{courseName}
+        and exam_year = #{examYear}
+        and exam_term = #{examTerm}
+    </select>
+
+    <!--个人成绩总分-->
+    <select id="stuScoreSum" resultType="Double">
+        select sum(exam_score) from score
+        where
+        sno = #{sno}
+        and exam_year = #{examYear}
+        and exam_term = #{examTerm}
+    </select>
+
+    <!--个人成绩平均分-->
+    <select id="stuScoreAvg" resultType="Double">
+        select convert(AVG(exam_score),DECIMAL(12,1)) from score
+        where
+        sno = #{sno}
+        and exam_year = #{examYear}
+        and exam_term = #{examTerm}
+    </select>
+</mapper>

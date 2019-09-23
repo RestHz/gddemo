@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app
+        version="3.0"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <display-name>GD</display-name>
+
+  <!--启动Tomcat则加载Spring配置文件-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:applicationContext.xml</param-value>
+  </context-param>
+
+  <!--字符过滤器-->
+  <filter>
+    <filter-name>characterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+    <init-param>
+      <param-name>forceRequestEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <init-param>
+      <param-name>forceResponseEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+  <!--restful风格过滤器-->
+  <filter>
+    <filter-name>hiddenHttpMethodFilter</filter-name>
+    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>characterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>hiddenHttpMethodFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <!--Spring配置文件加载监听器-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+
+  <!--SpringMVC前端控制器-->
+  <servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!--初始化加载SpringMVC配置文件-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:springmvc.xml</param-value>
+    </init-param>
+    <!--配置加载优先级-->
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <!--拦截除JSP之外所有请求-->
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <!--Kaptcha验证码-->
+  <servlet>
+    <servlet-name>kaptchaServlet</servlet-name>
+    <servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+    <!-- 是否有边框 -->
+    <init-param>
+      <param-name>kaptcha.border</param-name>
+      <param-value>no</param-value>
+    </init-param>
+    <!-- 字体颜色 -->
+    <init-param>
+      <param-name>kaptcha.textproducer.font.color</param-name>
+      <param-value>red</param-value>
+    </init-param>
+    <!-- 图片宽度 -->
+    <init-param>
+      <param-name>kaptcha.image.width</param-name>
+      <param-value>115</param-value>
+    </init-param>
+    <!-- 图片高度 -->
+    <init-param>
+      <param-name>kaptcha.image.height</param-name>
+      <param-value>40</param-value>
+    </init-param>
+    <!-- 使用哪些字符生成验证码 -->
+    <init-param>
+      <param-name>kaptcha.textproducer.char.string</param-name>
+      <!--<param-value>ACDEFHKPRSTWX345678</param-value>-->
+      <param-value>123456798</param-value>
+    </init-param>
+    <!-- 字体大小 -->
+    <init-param>
+      <param-name>kaptcha.textproducer.font.size</param-name>
+      <param-value>30</param-value>
+    </init-param>
+    <!-- 干扰线的颜色 -->
+    <init-param>
+      <param-name>kaptcha.noise.color</param-name>
+      <param-value>black</param-value>
+    </init-param>
+    <!-- 字符的个数 -->
+    <init-param>
+      <param-name>kaptcha.textproducer.char.length</param-name>
+      <param-value>4</param-value>
+    </init-param>
+    <!-- 字体 -->
+    <init-param>
+      <param-name>kaptcha.textproducer.font.names</param-name>
+      <param-value>Arial</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kaptchaServlet</servlet-name>
+    <url-pattern>/kaptcha</url-pattern>
+  </servlet-mapping>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/500.jsp</location>
+  </error-page>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

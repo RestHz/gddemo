@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.hut.hz.dao.InvestigateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="edu.hut.hz.pojo.Investigate">
+        <id column="inv_id" property="invId" />
+        <result column="sno" property="sno" />
+        <result column="stu_name" property="stuName" />
+        <result column="cla_name" property="claName" />
+        <result column="add_time" property="addTime" />
+        <result column="situation" property="situation" />
+        <result column="remark" property="remark" />
+        <result column="tno" property="tno" />
+        <result column="tc_name" property="tcName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        inv_id, sno, stu_name, cla_name, add_time, situation, remark, tno, tc_name
+    </sql>
+
+    <!-- 通用统计查询映射结果 -->
+    <resultMap id="BaseStatisticResultMap" type="edu.hut.hz.pojo.InvStatistic">
+
+        <result column="stu_name" property="stuName" />
+        <result column="staTime" property="staTime" />
+        <result column="situation" property="situation" />
+        <result column="staData" property="staData" />
+
+    </resultMap>
+
+    <!-- 通用统计查询结果列 -->
+    <sql id="Base_Statistic_Column_List">
+       stu_name, situation, staTime, staData
+    </sql>
+
+    <!--考勤统计-->
+    <select id="invStaByWeek" resultMap="BaseStatisticResultMap">
+        <if test="stuName !=null and stuName != ''">
+            select stu_name,WEEK(add_time) as staTime,situation,COUNT(1) staData
+            from investigate
+            where stu_name = #{stuName}
+            and cla_name = #{claName}
+            group by staTime,situation;
+        </if>
+        <if test="stuName ==null or stuName == ''">
+            select stu_name,WEEK(add_time) as staTime,situation,COUNT(1) staData
+            from investigate
+            where cla_name = #{claName}
+            group by staTime,stu_name,situation;
+        </if>
+    </select>
+
+    <select id="invStaByMonth" resultMap="BaseStatisticResultMap" parameterType="InvStatistic">
+        <if test="stuName !=null and stuName != ''">
+            select stu_name,MONTH(add_time) as staTime,situation,COUNT(1) staData
+            from investigate
+            where stu_name = #{stuName}
+            and cla_name = #{claName}
+            group by staTime,situation;
+        </if>
+        <if test="stuName ==null or stuName == ''">
+            select stu_name,MONTH(add_time) as staTime,situation,COUNT(1) staData
+            from investigate
+            where cla_name = #{claName}
+            group by staTime,stu_name,situation;
+        </if>
+    </select>
+
+    <select id="invStaByMonthLastTerm" resultMap="BaseStatisticResultMap" parameterType="InvStatistic">
+        <if test="stuName !=null and stuName != ''">
+            Select stu_name,situation,COUNT(1) staData From investigate Where
+            year(add_time)=#{examYear}
+            and DATE_FORMAT(add_time,'%m-%d') &gt;= '09-06'
+            and DATE_FORMAT(add_time,'%m-%d') &lt;= '12-25'
+            and stu_name = #{stuName}
+            and cla_name = #{claName}
+            group by situation;
+        </if>
+        <if test="stuName ==null or stuName == ''">
+            Select stu_name,situation,COUNT(1) staData From investigate Where
+            year(add_time)=#{examYear}
+            and DATE_FORMAT(add_time,'%m-%d') &gt;= '09-06'
+            and DATE_FORMAT(add_time,'%m-%d') &lt;= '12-25'
+            and cla_name = #{claName}
+            group by stu_name,situation;
+        </if>
+    </select>
+
+    <select id="invStaByNextTerm" resultMap="BaseStatisticResultMap" parameterType="InvStatistic">
+        <if test="stuName !=null and stuName != ''">
+            Select stu_name,situation,COUNT(1) staData
+            From investigate Where
+            year(add_time)=#{examYear}
+            and DATE_FORMAT(add_time,'%m-%d') &gt;= '01-25'
+            and DATE_FORMAT(add_time,'%m-%d') &lt;= '06-25'
+            and stu_name = #{stuName}
+            and cla_name = #{claName}
+            group by situation;
+        </if>
+        <if test="stuName ==null or stuName == ''">
+            Select stu_name,situation,COUNT(1) staData
+            From investigate Where
+            year(add_time)=#{examYear}
+            and DATE_FORMAT(add_time,'%m-%d') &gt;= '01-25'
+            and DATE_FORMAT(add_time,'%m-%d') &lt;= '06-25'
+            and cla_name =#{claName}
+            group by stu_name,situation;
+        </if>
+    </select>
+
+</mapper>

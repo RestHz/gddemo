@@ -1,0 +1,2545 @@
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+{dataSource-1} closed
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+{dataSource-1} closed
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonthLastTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonthLastTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByNextTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonthLastTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByNextTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonthLastTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByNextTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
+Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+Creating MapperFactoryBean with name 'adminMapper' and 'edu.hut.hz.dao.AdminMapper' mapperInterface
+Creating MapperFactoryBean with name 'clasMapper' and 'edu.hut.hz.dao.ClasMapper' mapperInterface
+Creating MapperFactoryBean with name 'communicationMapper' and 'edu.hut.hz.dao.CommunicationMapper' mapperInterface
+Creating MapperFactoryBean with name 'courseMapper' and 'edu.hut.hz.dao.CourseMapper' mapperInterface
+Creating MapperFactoryBean with name 'coursewareMapper' and 'edu.hut.hz.dao.CoursewareMapper' mapperInterface
+Creating MapperFactoryBean with name 'investigateMapper' and 'edu.hut.hz.dao.InvestigateMapper' mapperInterface
+Creating MapperFactoryBean with name 'scheduleMapper' and 'edu.hut.hz.dao.ScheduleMapper' mapperInterface
+Creating MapperFactoryBean with name 'scoreMapper' and 'edu.hut.hz.dao.ScoreMapper' mapperInterface
+Creating MapperFactoryBean with name 'studentMapper' and 'edu.hut.hz.dao.StudentMapper' mapperInterface
+Creating MapperFactoryBean with name 'teacherMapper' and 'edu.hut.hz.dao.TeacherMapper' mapperInterface
+Creating MapperFactoryBean with name 'userMapper' and 'edu.hut.hz.dao.UserMapper' mapperInterface
+DeBug: MyBatis Plus Global configuration Initializing !
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
+addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
+Parsed configuration file: 'class path resource [mybatis.xml]'
+{dataSource-1} inited
+addMappedStatement: edu.hut.hz.dao.AdminMapper.insert
+addMappedStatement: edu.hut.hz.dao.AdminMapper.delete
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.update
+addMappedStatement: edu.hut.hz.dao.AdminMapper.updateById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectById
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectList
+addMappedStatement: edu.hut.hz.dao.AdminMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\AdminMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ClasMapper.insert
+addMappedStatement: edu.hut.hz.dao.ClasMapper.delete
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.update
+addMappedStatement: edu.hut.hz.dao.ClasMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ClasMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ClasMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.insert
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.delete
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.update
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CommunicationMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CommunicationMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CourseMapper.courseNeedSelect
+addMappedStatement: edu.hut.hz.dao.CourseMapper.insert
+addMappedStatement: edu.hut.hz.dao.CourseMapper.delete
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.update
+addMappedStatement: edu.hut.hz.dao.CourseMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CourseMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CourseMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.insert
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.delete
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.update
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.updateById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectById
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectList
+addMappedStatement: edu.hut.hz.dao.CoursewareMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\CoursewareMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByWeek
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonth
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByMonthLastTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.invStaByNextTerm
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.insert
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.delete
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.update
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.updateById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectById
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectList
+addMappedStatement: edu.hut.hz.dao.InvestigateMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\InvestigateMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.update
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScheduleMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScheduleMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreNeedSelect
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreMax
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.scoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreSum
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.stuScoreAvg
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.insert
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.delete
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.update
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.updateById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectById
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectList
+addMappedStatement: edu.hut.hz.dao.ScoreMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\ScoreMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentOneUpdate
+addMappedStatement: edu.hut.hz.dao.StudentMapper.studentNeedSelect
+addMappedStatement: edu.hut.hz.dao.StudentMapper.insert
+addMappedStatement: edu.hut.hz.dao.StudentMapper.delete
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.update
+addMappedStatement: edu.hut.hz.dao.StudentMapper.updateById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectById
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectList
+addMappedStatement: edu.hut.hz.dao.StudentMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\StudentMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.teacherNeedSelect
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.insert
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.delete
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.update
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.updateById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectById
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectList
+addMappedStatement: edu.hut.hz.dao.TeacherMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\TeacherMapper.xml]'
+addMappedStatement: edu.hut.hz.dao.UserMapper.userNeedMsg
+addMappedStatement: edu.hut.hz.dao.UserMapper.insert
+addMappedStatement: edu.hut.hz.dao.UserMapper.delete
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteById
+addMappedStatement: edu.hut.hz.dao.UserMapper.deleteBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.update
+addMappedStatement: edu.hut.hz.dao.UserMapper.updateById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectById
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectBatchIds
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectByMap
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectOne
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectCount
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMaps
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectMapsPage
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectObjs
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectList
+addMappedStatement: edu.hut.hz.dao.UserMapper.selectPage
+Parsed mapper file: 'file [D:\Java\IHzProjects\GDDome02\target\classes\edu\hut\hz\dao\mapper\UserMapper.xml]'
