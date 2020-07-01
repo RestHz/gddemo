@@ -39,7 +39,7 @@
     <!--JSP页面所需的Jstl版本(Jun 23, 2011)-->
     <Jstl.version>1.2</Jstl.version>
     <!--Log4j版本(Jul 30, 2018)-->
-    <LOG4J.version>2.11.1</LOG4J.version>
+    <LOG4J.version>2.13.3</LOG4J.version>
     <!--分页插件版本(Sep 17, 2017)-->
     <PageHelper.version>5.1.2</PageHelper.version>
     <!--Lombok注解版本(Oct 30, 2018)-->
