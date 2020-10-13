@@ -19,7 +19,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 
     <!--Junit单元测试工具版本(Dec 04, 2014)-->
-    <Junit.version>4.12</Junit.version>
+    <Junit.version>4.13.1</Junit.version>
     <!--Mysql驱动版本(Sep 27, 2018)-->
     <Mysql-connection.version>8.0.13</Mysql-connection.version>
     <!--Druid数据库连接池版本(Oct 13, 2018)-->
