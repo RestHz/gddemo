@@ -31,7 +31,7 @@
     <!--MybatisPlus代码生成器模板引擎Apache的Velocity模板版本-->
     <ApacheVelocity.version>2.0</ApacheVelocity.version>
     <!--所使用的Spring版本(Jan 09, 2019)-->
-    <Spring.version>5.1.4.RELEASE</Spring.version>
+    <Spring.version>5.2.22.RELEASE</Spring.version>
     <!--AOP所依赖的Aspectj weaver版本(Oct 24, 2018)-->
     <Aspectj_Weaver.version>1.9.2</Aspectj_Weaver.version>
     <!--SpringMVC使用的FastJson版本(Jan 26, 2019)-->
