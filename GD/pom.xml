@@ -35,7 +35,7 @@
     <!--AOP所依赖的Aspectj weaver版本(Oct 24, 2018)-->
     <Aspectj_Weaver.version>1.9.2</Aspectj_Weaver.version>
     <!--SpringMVC使用的FastJson版本(Jan 26, 2019)-->
-    <FastJson.version>1.2.56</FastJson.version>
+    <FastJson.version>1.2.83</FastJson.version>
     <!--JSP页面所需的Jstl版本(Jun 23, 2011)-->
     <Jstl.version>1.2</Jstl.version>
     <!--Log4j版本(Jul 30, 2018)-->
