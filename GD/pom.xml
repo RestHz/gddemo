@@ -21,7 +21,7 @@
     <!--Junit单元测试工具版本(Dec 04, 2014)-->
     <Junit.version>4.12</Junit.version>
     <!--Mysql驱动版本(Sep 27, 2018)-->
-    <Mysql-connection.version>8.0.13</Mysql-connection.version>
+    <Mysql-connection.version>8.0.28</Mysql-connection.version>
     <!--Druid数据库连接池版本(Oct 13, 2018)-->
     <Druid.version>1.1.12</Druid.version>
     <!--Mybatis Plus版本(Feb 24, 2019)-->
